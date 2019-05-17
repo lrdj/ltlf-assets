@@ -1,0 +1,6 @@
+# check referrer to see if from Paypal
+# RewriteCond %{HTTP_referer} ^http://(www\.)?quux-foo\.com [NC] 
+
+# RewriteCond %{HTTP_REFERER}	!paypal.com
+
+# RewriteRule (.*)	http://thesiteroot.com/	[R]
